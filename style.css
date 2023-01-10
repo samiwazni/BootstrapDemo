@@ -1,0 +1,146 @@
+/* Google font-family links */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+
+body::before {
+    display: block;
+    content: '';
+    height: 30px;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-weight: 500;
+    font-family: 'Marcellus SC', serif;
+    line-height: 1.4;
+}
+
+p, a, i, button, form{
+    font-family: 'KoHo', sans-serif;
+    text-decoration: none;
+}
+
+
+nav {
+    border-bottom: solid #FF6E31 3px;
+}
+
+.container-for-questions {
+    width: 1000px;
+    margin: auto;
+}
+
+.span-text {
+    color: #FF6E31;
+}
+
+.p-text  {
+    color: #FF6E31;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.showcase {
+    margin: 100px 50px;
+}
+
+/* Background color for About section */
+.about {
+    background-color: #eaf2f5;
+}
+
+/* Background color for Contact team section */
+.container-contact {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #0A2647, #205295);
+    background: linear-gradient(to right, #0A2647, #205295);
+}
+
+/* Social media icons for contact team cards */
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.icon-link{
+    margin-left: -30px;
+    margin-top: 15px;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ececec;
+    text-decoration: none;
+    color: #555;
+}
+
+.social-link-footer-nav {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ececec;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.6rem;
+}
+
+.social-link-footer-nav:hover, .social-link-footer-nav:focus {
+    background: rgb(179, 179, 179);
+    text-decoration: none;
+    color: #555;
+}
+
+
+.form {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+/* Contact form */
+form input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input:hover, textarea:hover{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    border: 1px solid #d1d1d1;
+}
+
+form label {
+    color: #6b6b6b;
+}
+
+.footer {
+    background-color: #0a4275;
+}
+
+.dark-footer {
+   background-color: #00000033;
+}
+
